@@ -716,6 +716,7 @@
 					<v8:content>Новая кнопка</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>НоваяКнопка</Action>
 		</Command>
 	</Commands>
 </Form>
