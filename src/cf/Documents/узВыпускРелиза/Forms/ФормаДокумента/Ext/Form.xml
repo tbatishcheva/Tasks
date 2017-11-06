@@ -72,6 +72,13 @@
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="202"/>
+			<ChildItems>
+				<Button name="ФормаНоваяКнопка" id="207">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НоваяКнопка</CommandName>
+					<ExtendedTooltip name="ФормаНоваяКнопкаРасширеннаяПодсказка" id="208"/>
+				</Button>
+			</ChildItems>
 		</UsualGroup>
 		<Pages name="Страницы" id="10">
 			<Title>
@@ -695,6 +702,20 @@
 			</Picture>
 			<Action>КомандаЗагрузитьИзмененияПоЗадачам</Action>
 			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="НоваяКнопка" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новая кнопка (ничего не делает)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новая кнопка</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>
